@@ -1,0 +1,3 @@
+<?php
+
+include_once('qs_rotor.features.inc');
