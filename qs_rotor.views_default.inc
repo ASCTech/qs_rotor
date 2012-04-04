@@ -6,15 +6,15 @@
 function qs_rotor_views_default_views() {
   $views = array();
 
-  // Exported view: qs_rotor
+
+  // Exported view: Rotor
   $view = new view;
   $view->name = 'qs_rotor';
   $view->description = 'Quicksites Rotor';
   $view->tag = '';
-  $view->view_php = '';
   $view->base_table = 'node';
-  $view->is_cacheable = FALSE;
-  $view->api_version = 2;
+  $view->core = 0;
+  $view->api_version = '2';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
   $handler = $view->new_display('default', 'Defaults', 'default');
   $handler->override_option('fields', array(
@@ -428,12 +428,6 @@ function qs_rotor_views_default_views() {
     'pauseOnHover' => 'true',
     'manualAdvance' => 'false',
     'captionOpacity' => '0.8',
-  ));
-  $handler->override_option('row_options', array(
-    'image_field' => 'field_ascslider_image_fid',
-    'title_field' => 'field_caption_value',
-    'alt_text_field' => 'title',
-    'link_field' => 'field_ascslider_url_url',
   ));
   $handler->override_option('block_description', '');
   $handler->override_option('block_caching', -1);
