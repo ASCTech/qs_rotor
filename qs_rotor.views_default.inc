@@ -6,7 +6,6 @@
 function qs_rotor_views_default_views() {
   $views = array();
 
-
   // Exported view: Rotor
   $view = new view;
   $view->name = 'qs_rotor';
@@ -240,7 +239,7 @@ function qs_rotor_views_default_views() {
     'alt_text_field' => 'title',
     'link_field' => 'field_ascslider_url_url',
   ));
-  $handler = $view->new_display('block', 'Rotor Short Height', 'block_1');
+  $handler = $view->new_display('block', 'Rotor Short', 'block_1');
   $handler->override_option('style_options', array(
     'imagefield_preset' => 'Front_Short',
     'style' => 'default',
@@ -261,7 +260,7 @@ function qs_rotor_views_default_views() {
   ));
   $handler->override_option('block_description', '');
   $handler->override_option('block_caching', -1);
-  $handler = $view->new_display('block', 'Rotor Tall Height', 'block_2');
+  $handler = $view->new_display('block', 'Rotor Tall', 'block_2');
   $handler->override_option('fields', array(
     'field_ascslider_image_fid' => array(
       'label' => '',
