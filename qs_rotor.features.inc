@@ -15,8 +15,8 @@ function qs_rotor_ctools_plugin_api() {
  */
 function qs_rotor_imagecache_default_presets() {
   $items = array(
-    'Front_Single' => array(
-      'presetname' => 'Front_Single',
+    'Front_Short' => array(
+      'presetname' => 'Front_Short',
       'actions' => array(
         '0' => array(
           'weight' => '0',
@@ -29,8 +29,8 @@ function qs_rotor_imagecache_default_presets() {
         ),
       ),
     ),
-    'Front_Double' => array(
-      'presetname' => 'Front_Double',
+    'Front_Tall' => array(
+      'presetname' => 'Front_Tall',
       'actions' => array(
         '0' => array(
           'weight' => '0',

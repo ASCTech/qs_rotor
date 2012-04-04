@@ -43,7 +43,7 @@ function qs_rotor_views_default_views() {
       'empty_zero' => 0,
       'link_to_node' => 0,
       'label_type' => 'none',
-      'format' => 'Front_Single_default',
+      'format' => 'Front_Short_default',
       'multiple' => array(
         'group' => TRUE,
         'multiple_number' => '',
@@ -216,7 +216,7 @@ function qs_rotor_views_default_views() {
   ));
   $handler->override_option('style_plugin', 'views_nivo_slider');
   $handler->override_option('style_options', array(
-    'imagefield_preset' => 'Front_Single',
+    'imagefield_preset' => 'Front_Short',
     'style' => 'default',
     'effect' => 'fade',
     'slices' => '1',
@@ -240,9 +240,9 @@ function qs_rotor_views_default_views() {
     'alt_text_field' => 'title',
     'link_field' => 'field_ascslider_url_url',
   ));
-  $handler = $view->new_display('block', 'Rotor Single Height', 'block_1');
+  $handler = $view->new_display('block', 'Rotor Short Height', 'block_1');
   $handler->override_option('style_options', array(
-    'imagefield_preset' => 'Front_Single',
+    'imagefield_preset' => 'Front_Short',
     'style' => 'default',
     'effect' => 'fade',
     'slices' => '1',
@@ -261,7 +261,7 @@ function qs_rotor_views_default_views() {
   ));
   $handler->override_option('block_description', '');
   $handler->override_option('block_caching', -1);
-  $handler = $view->new_display('block', 'Rotor Double Height', 'block_2');
+  $handler = $view->new_display('block', 'Rotor Tall Height', 'block_2');
   $handler->override_option('fields', array(
     'field_ascslider_image_fid' => array(
       'label' => '',
@@ -288,7 +288,7 @@ function qs_rotor_views_default_views() {
       'empty_zero' => 0,
       'link_to_node' => 0,
       'label_type' => 'none',
-      'format' => 'Front_Double_default',
+      'format' => 'Front_Tall_default',
       'multiple' => array(
         'group' => TRUE,
         'multiple_number' => '',
@@ -412,7 +412,7 @@ function qs_rotor_views_default_views() {
     ),
   ));
   $handler->override_option('style_options', array(
-    'imagefield_preset' => 'Front_Double',
+    'imagefield_preset' => 'Front_Tall',
     'style' => 'default',
     'effect' => 'fade',
     'slices' => '1',
