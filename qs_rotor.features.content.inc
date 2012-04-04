@@ -17,11 +17,11 @@ function qs_rotor_content_default_fields() {
         'format' => 'above',
       ),
       'teaser' => array(
-        'format' => 'Front_A_default',
+        'format' => 'image_plain',
         'exclude' => 0,
       ),
       'full' => array(
-        'format' => 'Front_A_default',
+        'format' => 'image_plain',
         'exclude' => 0,
       ),
       '4' => array(
