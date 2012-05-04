@@ -67,7 +67,7 @@ function qs_rotor_content_default_fields() {
       'use_default_image' => 0,
       'label' => 'Image',
       'weight' => '8',
-      'description' => 'Image to be displayed on rotor. Recommended file size: 16-17 KB. ',
+      'description' => 'Image to be displayed on rotor. Recommended file size: 16-17 KB. Image size for small rotor image: 470px wide x 263px high. Image size for large rotor image: 470px wide x 583px high.',
       'type' => 'imagefield_widget',
       'module' => 'imagefield',
     ),
